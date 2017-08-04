@@ -15,7 +15,7 @@
 					</div>
 
 					<div class="panel-body">
-						{!! $html->table(['class'=>'table-striped']) !!}
+						{!! $html->table(['class'=>'table-striped'])!!}
 					</div>
 				</div>
 			</div>
