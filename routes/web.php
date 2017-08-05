@@ -17,6 +17,7 @@ Route::get('/', function () {
 Route::group(['prefix'=>'admin','middleware'=>['auth','role:admin']], function(){
 
 	Route::resource('authors','AuthorsController');
+	Route::resource('books','BooksController');
 
 });
 Auth::routes();

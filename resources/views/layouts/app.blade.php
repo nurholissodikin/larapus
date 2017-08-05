@@ -47,6 +47,7 @@
                         @endif
                         @role('admin')
                                <li><a href="{{ route('authors.index') }}">Penulis</a></li>
+                               <li><a href="{{ route('books.index') }}">Buku</a></li>
                                @endrole
                     </ul>
 
@@ -89,6 +90,7 @@
 <script src="/js/app.js"></script>
 <script src="/js/jquery.dataTables.min.js"></script>
 <script src="/js/dataTables.bootstrap.js"></script>
+<script src="/js/custom.js"></script>
     @yield('scripts')
 
 </body>
